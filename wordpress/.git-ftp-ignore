@@ -1,0 +1,3 @@
+bitbucket-pipelines.yml
+web/.htaccess-sample
+web/wp-config-sample.php

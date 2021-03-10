@@ -1,0 +1,46 @@
+$font-primary: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif; // Available: 100;300;400;500;700
+$font-primary-condensed: 'Roboto Condensed', 'Helvetica Neue Condensed', sans-serif; // Available: 300, 700
+$font-secondary: 'Source Serif Pro', Times, "Times New Roman", serif; // Available: 400;700
+
+h3 {
+  &.align-center {
+    text-align: center;
+  }
+}
+
+h3 {
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 500;
+  margin-bottom: rem(25px);
+  letter-spacing: 2px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 30px;
+    height: 4px;
+    background-color: $red;
+  }
+
+  &.align-center {
+    &::after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+.input-group {
+  button{
+    &.btn {
+      margin-left: 10px !important;
+    }
+  }
+}
+
+body {
+  overflow-x: hidden;
+}

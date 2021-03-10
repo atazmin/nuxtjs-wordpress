@@ -1,0 +1,11 @@
+mkdir /home/rof/clone/wp-content
+cp -rp /home/rof/clone/web/* /home/rof/clone/wp-content/
+rm -rf web
+cd /home/rof/clone/wp-content
+git init
+git remote add staging git@git.wpengine.com:production/environement-name.git
+git add --all
+git commit --allow-empty -m "WPEngine deploy"
+git show-ref
+echo "Pushing to WP Engine..."
+git push staging HEAD:master

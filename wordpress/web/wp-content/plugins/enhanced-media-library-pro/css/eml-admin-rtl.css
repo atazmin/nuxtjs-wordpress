@@ -1,0 +1,389 @@
+
+/* == Main Menu Styles == */
+
+#adminmenu .wp-submenu li.eml-media-submenu {
+    padding-right: 20px;
+}
+
+
+
+/* == Go PRO Styles == */
+
+a.eml-pro {
+    font-weight: 700;
+}
+
+
+/* == Buttons Styles == */
+
+.wpuxss-eml-button-remove {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1em;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.wpuxss-eml-button-remove:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.wpuxss-eml-button-container-right {
+    text-align: left;
+    margin: 20px 0 0;
+}
+
+
+#post-query-submit {
+    margin: 1px 5px 0 8px;
+}
+#eml-reset-filters-query-submit {
+    margin: 1px 0 0 8px;
+}
+
+
+.wrap .eml-apply-settings-to-network:hover {
+    border-color: #d54e21;
+    background: #EC5F30;
+}
+
+
+
+
+/* == ui-dialog Styles == */
+
+.eml-dialog-modal {
+    z-index: 300000 !important;
+}
+.eml-dialog-modal,
+.eml-dialog-modal p{
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+
+
+
+/* == Fullscreen Spinner Styles == */
+
+.fullscreen-spinner-box {
+    background: rgba( 0, 86, 132, 0.9 );
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 300000;
+    text-align: center;
+}
+.fullscreen-spinner-inner-box {
+    border: 1px dashed #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+}
+.fullscreen-spinner-box .eml-spinner {
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    background: url(../images/spinner.gif) no-repeat center bottom;
+    width: 100%;
+    height: 120px;
+    margin: -60px 0 0 0;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    line-height: 1.3;
+    font-weight: bold;
+}
+
+
+
+
+/* == Option Page Generic Styles == */
+
+#toplevel_page_media-library .wp-menu-image {
+    background-position: -119px -33px !important;
+}
+
+#wpuxss-eml-global-options-wrap .postbox {
+    background-image:none !important;
+    position: relative;
+}
+#wpuxss-eml-global-options-wrap .postbox ul {
+    margin-bottom: 25px;
+}
+#wpuxss-eml-global-options-wrap #poststuff .inside {
+    margin: 20px 0 0;
+}
+
+#wpuxss-eml-global-options-wrap .postbox#wpuxss-credits {
+    background-color: #fff !important;
+}
+#wpuxss-credits .author {
+    font-style: italic;
+    margin: 30px 0 0;
+    padding: 10px 0 5px;
+    border-top: 1px solid #e0e5e9;
+}
+#wpuxss-credits .logo-webbistro {
+    font-style: italic;
+    text-decoration: none;
+}
+#wpuxss-credits .icon-webbistro {
+    font-family: 'webbistro';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+#wpuxss-credits h4 {
+    margin: 20px 0 4px;
+}
+#wpuxss-credits p,
+#wpuxss-credits ul {
+    margin-top: 0;
+}
+#wpuxss-credits li {
+    list-style: disc;
+    margin-right: 1.4em;
+}
+#wpuxss-credits .button-primary {
+    background-color: #1ace0d;
+    border-color: #139a09;
+}
+#wpuxss-credits .button-primary:hover {
+    background: #1dbb11;
+    border-color: #127d0a;
+    color: #e4ffe2;
+}
+#wpuxss-credits .button-primary:focus {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #1dbb11;
+}
+#wpuxss-credits .button-primary span {
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'webbistro';
+    src:url('../fonts/webbistro.eot');
+    src:url('../fonts/webbistro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/webbistro.woff') format('woff'),
+        url('../fonts/webbistro.ttf') format('truetype'),
+        url('../fonts/webbistro.svg#webbistro') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 120dpi) {
+
+    .fullscreen-spinner-box .eml-spinner {
+        background-image: url(../images/spinner-2x.gif);
+    }
+}
+
+
+
+
+/* == MIME types Option Page Styles == */
+
+.wpuxss-eml-mime-type-list {
+    table-layout: fixed;
+}
+.wpuxss-eml-mime-type-list td {
+    padding: 8px 7px;
+}
+.wpuxss-eml-mime-type-list .checkbox_td {
+    text-align: center;
+}
+.wpuxss-eml-mime-type-list input[type="text"] {
+    width: 120px;
+}
+.wpuxss-eml-column-extension {
+    width: 130px;
+}
+.wpuxss-eml-column-singular,
+.wpuxss-eml-column-plural {
+    width:120px;
+}
+.wpuxss-eml-column-filter {
+    width: 70px;
+}
+.wpuxss-eml-column-upload {
+    width: 90px;
+}
+.wpuxss-eml-column-delete {
+    width: 30px;
+}
+#eml-restore-mime-types-settings {
+    margin-right:  20px;
+}
+
+
+
+
+/* == Plugin Options Page Styles == */
+
+.wp-core-ui #eml-submit-settings-cleanup,
+.wp-core-ui .button-primary.eml-warning-button {
+    background: #d54e21;
+    border-color: #EC5F30 #940B0B #940B0B;
+    -webkit-box-shadow: 0 1px 0 #940B0B;
+    box-shadow: 0 1px 0 #940B0B;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #940B0B, -1px 0 1px #940B0B, 0 1px 1px #940B0B, 1px 0 1px #940B0B;
+}
+.wp-core-ui #eml-submit-settings-cleanup:hover,
+.wp-core-ui .button-primary.eml-warning-button:hover {
+    background: #E45728;
+    border-color: #940B0B;
+    color: #fff;
+}
+.wp-core-ui #eml-submit-settings-cleanup:active,
+.wp-core-ui .button-primary.eml-warning-button:active {
+    background: #D54E21;
+    border-color: #940B0B;
+    -webkit-box-shadow: inset 0 2px 0 #940B0B;
+    box-shadow: inset 0 2px 0 #940B0B;
+    color: #fff;
+}
+.wp-core-ui #eml-submit-settings-cleanup:focus,
+.wp-core-ui .button-primary.eml-warning-button:focus {
+    -webkit-box-shadow: 0 1px 0 #D54E21, 0 0 2px 1px #F17349;
+    box-shadow: 0 1px 0 #D54E21, 0 0 2px 1px #F17349;
+}
+
+
+
+
+/* == Taxonomies Option Page Styles == */
+
+.wpuxss-eml-settings-list {
+    border-top: 1px solid #dfdfdf;
+}
+.wpuxss-eml-settings-list > li {
+    border-bottom: 1px solid #dfdfdf;
+    padding: 8px 7px;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+.wpuxss-eml-settings-list > li > label {
+    font-size: 14px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 0;
+}
+.wpuxss-eml-settings-list input {
+    margin: 0;
+}
+.wpuxss-eml-settings-list > li .wpuxss-eml-button-edit {
+    position: absolute;
+    right: auto;
+    left: 40px;
+    top: 7px;
+    text-decoration: none;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    padding: 3px 10px;
+}
+.wpuxss-eml-settings-list.wpuxss-eml-non-media-taxonomy-list > li .wpuxss-eml-button-edit {
+    left: 10px;
+}
+.wpuxss-eml-settings-list > li .wpuxss-eml-button-remove {
+    position: absolute;
+    right: auto;
+    left: 10px;
+    top: 7px;
+}
+.wpuxss-eml-settings-list .wpuxss-eml-assigned {
+    margin: 0 0 0 10px;
+}
+
+.wpuxss-eml-taxonomy-edit label {
+    display: inline-block;
+    width: 210px;
+}
+.wpuxss-eml-non-media-taxonomy-list .wpuxss-eml-taxonomy-edit label {
+    width: auto;
+    margin-right: 10px;
+}
+.wpuxss-eml-taxonomy-edit .wpuxss-eml-labels-edit {
+    float: right;
+    width: 48%;
+    margin-left: 1%;
+}
+.wpuxss-eml-taxonomy-edit .wpuxss-eml-settings-edit {
+    float: right;
+    width: 50%;
+    margin-right: 1%;
+}
+.wpuxss-eml-taxonomy-edit .wpuxss-eml-settings-edit li {
+    padding: 3px 0;
+}
+.wpuxss-eml-taxonomy-edit .wpuxss-eml-labels-edit label {
+    width: 100px;
+}
+.wpuxss-eml-taxonomy-edit input[type="text"] {
+    min-width: 150px;
+}
+.wpuxss-eml-taxonomy-edit .wpuxss-eml-settings-edit input[type="text"] {
+    width: 50%;
+}
+.wpuxss-eml-taxonomy-edit .wpuxss-eml-labels-edit input[type="text"] {
+    width: 70%;
+}
+
+.eml-options #poststuff h2 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.eml-button-synchronize-terms.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+
+
+
+/* == Disabled Styles == */
+
+.wrap.eml-options .disabled {
+    opacity: 0.6;
+}
+.wrap.eml-options .disabled label,
+.wrap.eml-options .disabled input {
+    cursor: default;
+}
+.wrap.eml-options .disabled input {
+    pointer-events: none;
+}
+.wrap.eml-options .disabled input:focus {
+    box-shadow: none;
+}
+
+.wrap.eml-options .disabled .submit {
+    pointer-events: none;
+    cursor: default;
+}
+.wrap.eml-options span.premium {
+    text-transform: uppercase;
+}
+.wrap.eml-options h2 span.premium {
+    font-size: 0.5em;
+}

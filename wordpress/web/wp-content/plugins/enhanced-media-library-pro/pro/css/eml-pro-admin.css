@@ -1,0 +1,56 @@
+
+/* == Sidebar :: Attachments Details == */
+
+.media-frame .attachments-detail {
+    position: relative;
+    overflow: auto;
+}
+
+
+
+
+/* == Sidebar :: Gallery Settings == */
+
+body.eml-media-css .media-sidebar .setting.eml-limit input {
+    float: none;
+    width: 50px;
+    max-width: 65%;
+    margin-top: 0;
+    line-height: 12px;
+}
+
+
+
+
+/* == EML Bulk Edit popup == */
+
+.media-frame.mode-eml-bulk-edit .attachments-browser .attachments {
+    top: 10px;
+}
+
+
+
+
+/* == Media Uploader Bulk Edit Button == */
+
+.eml-bulk-edit-button-container {
+    margin: 20px 0;
+}
+
+
+
+
+/* == EML Settings Page Styles == */
+
+#wpuxss-eml-form-updates .postbox h4 {
+    padding: 0;
+    margin: 0;
+}
+#wpuxss-eml-form-updates #wpuxss_eml_pro_license_key {
+    width: 100%;
+}
+
+#wpuxss-eml-global-options-wrap p.submit {
+    margin-top: 10px;
+
+}

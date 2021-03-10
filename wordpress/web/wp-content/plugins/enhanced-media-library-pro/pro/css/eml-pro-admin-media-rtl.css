@@ -1,0 +1,80 @@
+
+/* == Media Selection == */
+
+.media-modal-content .media-frame .media-frame-toolbar .media-toolbar-secondary {
+    float: none;
+    position: absolute;
+    left: 320px;
+    right: 0;
+}
+.media-modal-content .media-frame .media-frame-toolbar .media-selection {
+    position: relative;
+    float: right;
+}
+.media-modal-content .media-frame .media-frame-toolbar .media-selection:after {
+    background-image: none;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty {
+    display: block;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .button-link {
+    border-right: 0;
+    border-left: 1px solid #ddd;
+}
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .button-link:first-of-type {
+    border-left: 0;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .select,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .restore,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .delete-permanently {
+    display: none;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty .select {
+    display: block;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty .delete,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty .trash,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty .deselect,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty .restore,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.empty .delete-permanently {
+    display: none;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.trash .delete,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.trash .trash {
+    display: none;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.trash .restore,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.trash .delete-permanently {
+    display: block;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.trash.empty .restore,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection.trash.empty .delete-permanently {
+    display: none;
+}
+
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .delete,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .trash,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .delete-permanently  {
+    color: red;
+}
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .delete:hover,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .trash:hover,
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .delete-permanently:hover {
+    background: red;
+    color: #fff;
+}
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .deselect {
+    color: #21759B;
+}
+.media-modal-content .media-frame .media-frame-toolbar .media-selection .deselect:hover {
+    background: #21759B;
+    color: #fff;
+}
