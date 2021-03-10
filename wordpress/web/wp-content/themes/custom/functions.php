@@ -1,8 +1,10 @@
 <?php
-function twentytwenty_styles() {
-	wp_enqueue_style( 'parent', get_template_directory_uri() . '/style.css' );
+
+function twentytwentyone_styles() {
+	wp_enqueue_style( 'child-style', get_stylesheet_uri(),
+	array( 'twenty-twenty-one-style' ), wp_get_theme()->get('Version') );
 }
-add_action( 'wp_enqueue_scripts', 'twentytwenty_styles');
+add_action( 'wp_enqueue_scripts', 'twentytwentyone_styles');
 
 if ( function_exists('acf_add_options_page') ) {
 	acf_add_options_page(array(
