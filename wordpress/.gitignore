@@ -16,6 +16,9 @@ web/wp-content/plugins/hello.php
 # ignore specific themes
 web/wp-content/themes/twenty*/
 
+# don't ignore specific themes
+!web/wp-content/themes/twentytwentyone/
+
 # ignore node dependency directories
 node_modules/
 
