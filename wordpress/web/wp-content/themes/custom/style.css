@@ -1,12 +1,13 @@
 /*
-Theme Name: Theme Name
-Text Domain: Text Domain
-Version: 0.1
-Description: Description
-Author: Author
-Author URI: https://authoruri.com/
-Theme URI: https://themeuri.com/
-License: License
-License URI: License URI
-Template:  twentytwentyone
+ Theme Name:   Twenty Twenty-One Child
+ Theme URI:    https://www.domain-name.com/
+ Description:  A child theme of Twenty Twenty-One WordPress theme.
+ Author:       Author Name
+ Author URI:   https://www.domain-name.com/
+ Template:     twentytwentyone
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
+
+@import url("../twentytwentyone/style.css");
