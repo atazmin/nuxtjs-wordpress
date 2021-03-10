@@ -62,4 +62,9 @@ function my_acf_init() {
 }
 add_action('acf/init', 'my_acf_init');
 
+function add_tertiary_menu() {
+  register_nav_menu('tertiary_menu',__( 'Tertiary menu' ));
+}
+add_action( 'init', 'add_tertiary_menu' );
+
 ?>
